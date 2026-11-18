@@ -1,0 +1,179 @@
+services:
+  ai-billing-hub:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: qwen-ai-billing-hub
+    restart: unless-stopped
+    ports:
+      - "8081:80"
+    # Kredensial dan API keys disuntikkan saat container berjalan (Runtime),
+    # TIDAK PERNAH di-hardcode ke dalam Docker image.
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      # Groq Configuration
+      - GROQ_API_KEY=${GROQ_API_KEY:-}
+      - GROQ_MODEL=${GROQ_MODEL:-qwen/qwen3.8-27b}
+
+      # OpenRouter Configuration
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY:-}
+
+      # Google Cloud / Gemini Configuration
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+
+      # AWS Configuration (Bedrock + Billing Manager)
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID:-}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY:-}
+      - AWS_SESSION_TOKEN=${AWS_SESSION_TOKEN:-}
+      - AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION:-us-east-1}
+      - AWS_SYNC_DAYS=${AWS_SYNC_DAYS:-30}
+      - BEDROCK_MODEL_ID=${BEDROCK_MODEL_ID:-anthropic.claude-3-5-sonnet-20241022-v2:0}
+
+      # Google Cloud Project Configuration (opsional untuk Budget Guard)
+      - GCP_PROJECT_ID=${GCP_PROJECT_ID:-}
+
+      # Budget enforcement (Redis)
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - BUDGET_ENFORCEMENT_ENABLED=${BUDGET_ENFORCEMENT_ENABLED:-false}
+      - DEFAULT_DAILY_CAP=${DEFAULT_DAILY_CAP:-10.0}
+      - DEFAULT_MONTHLY_CAP=${DEFAULT_MONTHLY_CAP:-100.0}
+
+      # Database MySQL untuk modul AWS Billing Manager (/billing/)
+      - DB_HOST=billing-db
+      - DB_PORT=3306
+      - DB_NAME=${DB_NAME:-aws_billing}
+      - DB_USER=${DB_USER:-qween}
+      - DB_PASSWORD=${DB_PASSWORD:-qween_secret}
+      - TZ=${TZ:-Asia/Jakarta}
+      - DEBUG=${DEBUG:-false}
+
+    depends_on:
+      redis:
+        condition: service_healthy
+      billing-db:
+        condition: service_healthy
+
+    # Volume untuk Python cache, logs, dan kode billing (live edit)
+    volumes:
+      - python-cache:/root/.cache
+      - app-logs:/var/log/apache2
+      - ./billing:/var/www/html/billing:ro
+
+    # Network untuk komunikasi dengan service lain (opsional)
+    networks:
+      - ai-network
+
+    # Resource limits (opsional, sesuaikan dengan sistem)
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 1G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+
+  # ---------------------------------------------------------------------
+  # MySQL 8 — database aplikasi AWS Billing Manager
+  # Tidak dipublikasikan ke host agar tidak bentrok dengan MySQL lokal 3306.
+  # ---------------------------------------------------------------------
+  billing-db:
+    image: mysql:8.0
+    container_name: qween-billing-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${DB_NAME:-aws_billing}
+      MYSQL_USER: ${DB_USER:-qween}
+      MYSQL_PASSWORD: ${DB_PASSWORD:-qween_secret}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-qween_root_secret}
+      TZ: ${TZ:-Asia/Jakarta}
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    volumes:
+      - billing-db-data:/var/lib/mysql
+      # Skema dijalankan otomatis saat volume database pertama kali dibuat.
+      - ./billing/db:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -uroot -p$$MYSQL_ROOT_PASSWORD --silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
+    networks:
+      - ai-network
+
+  # ---------------------------------------------------------------------
+  # phpMyAdmin — inspeksi database di http://localhost:8082
+  # ---------------------------------------------------------------------
+  billing-phpmyadmin:
+    image: phpmyadmin:5-apache
+    container_name: qween-billing-phpmyadmin
+    restart: unless-stopped
+    ports:
+      - "8082:80"
+    environment:
+      PMA_HOST: billing-db
+      PMA_PORT: 3306
+      PMA_USER: ${DB_USER:-qween}
+      PMA_PASSWORD: ${DB_PASSWORD:-qween_secret}
+      UPLOAD_LIMIT: 64M
+      TZ: ${TZ:-Asia/Jakarta}
+    depends_on:
+      billing-db:
+        condition: service_healthy
+    networks:
+      - ai-network
+
+  redis:
+    image: redis:8-alpine
+    container_name: qwen-ai-billing-redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    networks:
+      - ai-network
+
+# Opsional: Jika menggunakan Docker Swarm / Docker Secrets native
+# Uncomment dan konfigurasi jika ingin menggunakan Docker Secrets
+# secrets:
+#   - groq_key
+#   - openrouter_key
+#   - gemini_key
+#   - aws_access_key
+#   - aws_secret_key
+
+networks:
+  ai-network:
+    driver: bridge
+
+volumes:
+  python-cache:
+    driver: local
+  app-logs:
+    driver: local
+  redis-data:
+    driver: local
+  billing-db-data:
+    driver: local
+
+# secrets:
+#   groq_key:
+#     file: ./secrets/groq_key.txt
+#   openrouter_key:
+#     file: ./secrets/openrouter_key.txt
+#   gemini_key:
+#     file: ./secrets/gemini_key.txt
+#   aws_access_key:
+#     file: ./secrets/aws_access_key.txt
+#   aws_secret_key:
+#     file: ./secrets/aws_secret_key.txt

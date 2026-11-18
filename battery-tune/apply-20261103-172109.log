@@ -1,0 +1,23 @@
+﻿[17:21:12] BACKUP OK -> C:\laragon\www\aws billing qween 3 32b\battery-tune\services-backup-20261103-172109.json (763 service)
+[17:21:12] OK    BITS                                         -> Manual   [StopPending]  Windows Update/Store akan menyalakannya saat perlu
+[17:21:13] FAIL  DoSvc                                        (sc exit 5)
+[17:21:14] OK    WSAIFabricSvc                                -> Manual   [Stopped]  Windows AI Components (on-demand)
+[17:21:14] OK    InventorySvc                                 -> Manual   [StopPending]  Inventory & Compatibility Appraisal
+[17:21:15] OK    wuqisvc                                      -> Manual   [Stopped]  Usage & Quality Insights
+[17:21:20] FAIL  CloudBackupRestoreSvc_b9ffa                  (sc exit 87)
+[17:21:20] FAIL  PimIndexMaintenanceSvc_b9ffa                 (sc exit 87)
+[17:21:23] OK    edgeupdate                                   -> Manual   [Stopped]  Microsoft Edge updater
+[17:21:38] OK    ClickToRunSvc                                -> Manual   [Stopped]  Office Click-to-Run updater
+[17:21:39] OK    GoogleUpdaterService157.0.8089.0             -> Manual   [Stopped]  Google updater
+[17:21:40] OK    GoogleUpdaterInternalService157.0.8089.0     -> Manual   [Stopped]  Google updater (internal)
+[17:21:41] OK    EgoUpdaterService0.6.2.5                     -> Manual   [Stopped]  ego browser updater
+[17:21:42] OK    EgoUpdaterInternalService0.6.2.5             -> Manual   [Stopped]  ego updater (internal)
+[17:21:42] OK    EgoUpdaterInternalService0.6.2.7             -> Manual   [Stopped]  ego updater (internal) lama
+[17:21:42] OK    logi_lamparray_service                       -> Manual   [StopPending]  Logitech RGB lamp array
+[17:21:42] OK    Intel(R) Platform License Manager Service    -> Manual   [Stopped]  Intel platform licensing
+[17:21:43] FAIL  NPSMSvc_b9ffa                                (sc exit 87)
+[17:21:43] FAIL  DevicesFlowUserSvc_b9ffa                     (sc exit 87)
+[17:21:44] OK    WebClient                                    -> Disabled [Stopped]  WebDAV client (jarang dipakai)
+[17:21:44] OK    SharedAccess                                 -> Disabled [StopPending]  Internet Connection Sharing (bukan hotspot)
+[17:21:44] SELESAI. berhasil=15 gagal=5
+[17:21:44] Rollback: powershell -ExecutionPolicy Bypass -File .\rollback.ps1 -BackupFile "C:\laragon\www\aws billing qween 3 32b\battery-tune\services-backup-20261103-172109.json"

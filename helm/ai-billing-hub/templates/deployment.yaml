@@ -1,0 +1,75 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "ai-billing-hub.fullname" . }}
+  labels:
+    {{- include "ai-billing-hub.labels" . | nindent 4 }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      {{- include "ai-billing-hub.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      labels:
+        {{- include "ai-billing-hub.selectorLabels" . | nindent 8 }}
+    spec:
+      containers:
+      - name: web
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+        imagePullPolicy: {{ .Values.image.pullPolicy }}
+        ports:
+        - containerPort: 80
+          name: http
+        env:
+        - name: GROQ_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: {{ include "ai-billing-hub.fullname" . }}-secrets
+              key: groq-api-key
+        - name: OPENROUTER_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: {{ include "ai-billing-hub.fullname" . }}-secrets
+              key: openrouter-api-key
+        - name: GEMINI_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: {{ include "ai-billing-hub.fullname" . }}-secrets
+              key: gemini-api-key
+        - name: AWS_ACCESS_KEY_ID
+          valueFrom:
+            secretKeyRef:
+              name: {{ include "ai-billing-hub.fullname" . }}-secrets
+              key: aws-access-key-id
+        - name: AWS_SECRET_ACCESS_KEY
+          valueFrom:
+            secretKeyRef:
+              name: {{ include "ai-billing-hub.fullname" . }}-secrets
+              key: aws-secret-access-key
+        - name: GROQ_MODEL
+          value: {{ .Values.config.groqModel }}
+        - name: BEDROCK_MODEL_ID
+          value: {{ .Values.config.bedrockModelId }}
+        - name: GCP_PROJECT_ID
+          value: {{ .Values.config.gcpProjectId }}
+        - name: AWS_DEFAULT_REGION
+          value: {{ .Values.config.awsRegion }}
+        - name: TZ
+          value: {{ .Values.config.timezone }}
+        - name: DEBUG
+          value: {{ .Values.config.debug }}
+        resources:
+          {{- toYaml .Values.resources | nindent 10 }}
+        livenessProbe:
+          httpGet:
+            path: /
+            port: http
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /
+            port: http
+          initialDelaySeconds: 5
+          periodSeconds: 5

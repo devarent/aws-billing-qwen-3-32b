@@ -1,0 +1,49 @@
+<main class="container">
+  <h1>{{ title }}</h1>
+  <p>Frontend Angular siap dikembangkan dan terhubung ke API PHP.</p>
+
+  <section class="card">
+    <h2>Status API</h2>
+    @if (apiStatus(); as status) {
+      <p>
+        Status: <strong>{{ status.status }}</strong>
+        @if (status.server_time) {
+          <span> — {{ status.server_time }}</span>
+        }
+      </p>
+      @if (status.providers) {
+        <ul>
+          @for (provider of status.providers | keyvalue; track provider.key) {
+            <li>
+              {{ provider.key }}:
+              <strong>{{ provider.value ? 'aktif' : 'tidak aktif' }}</strong>
+            </li>
+          }
+        </ul>
+      }
+      @if (error()) {
+        <p class="error">
+          Gagal memuat status ({{ error() }}). Jalankan API PHP di port 8080.
+        </p>
+      }
+    } @else {
+      <p>Memuat status…</p>
+    }
+  </section>
+
+  <section class="card">
+    <h2>Menjalankan</h2>
+    <pre>npm install
+npm start</pre>
+    <p>Buka <a href="http://localhost:4200">http://localhost:4200</a></p>
+  </section>
+
+  <section class="card">
+    <h2>Integrasi API</h2>
+    <p>
+      API PHP diakses lewat proxy <code>/api/php?action=status</code>
+      (meneruskan ke <code>http://localhost:8080/api.php</code>).
+    </p>
+    <p>Dashboard utama: <a href="http://localhost:8080">http://localhost:8080</a></p>
+  </section>
+</main>

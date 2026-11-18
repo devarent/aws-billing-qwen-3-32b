@@ -1,0 +1,25 @@
+:root {
+  --aws-navy: #232f3e;
+  --aws-orange: #ff9900;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #f2f3f3;
+  color: #16191f;
+}
+
+a {
+  color: #c45500;
+}
+
+code {
+  background: #f2f3f3;
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+}

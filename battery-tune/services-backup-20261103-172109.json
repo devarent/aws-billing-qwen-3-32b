@@ -1,0 +1,4580 @@
+﻿[
+    {
+        "Name":  "1394ohci",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "3ware",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "AarSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "AarSvc_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ACPI",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "AcpiAudioCompositorInbox",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "AcpiDev",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "acpiex",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "acpipagr",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "AcpiPmi",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "acpitime",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Acx01000",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "AcxHdAudio",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ADP80XX",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ADPSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "AFD",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "afunix",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "ahcache",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "ALG",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "amdgpio2",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "amdi2c",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "AmdK8",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "AmdPPM",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "amdsata",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "amdsbs",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "amdwps",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "amdxata",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "AppID",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "AppIDSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Appinfo",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "AppleSSD",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "applockerfltr",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "AppReadiness",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "AppXSvc",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "ApxSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "arcsas",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "AsyncMac",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "atapi",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "AudioEndpointBuilder",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Audiosrv",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "autotimesvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "AxInstSV",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "b06bdrv",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "bam",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "BasicDisplay",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "BasicRender",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "BcastDVRUserService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "BcastDVRUserService_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "bcmfn2",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "BDESVC",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Beep",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "BFE",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "bfs",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "bindflt",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "BITS",
+        "Start":  2,
+        "DelayedAutostart":  1,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "BluetoothUserService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "BluetoothUserService_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "bowser",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "BrokerInfrastructure",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "BTAGService",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "BthA2dp",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "BthAvctpSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "BthEnum",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "BthHFEnum",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "BthLEEnum",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "BthMini",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "BTHMODEM",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "BthPan",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "BTHPORT",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "bthserv",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "BTHUSB",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "bttflt",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "buttonconverter",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "CAD",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "camsvc",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "CaptureService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "CaptureService_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "cbdhsvc",
+        "Start":  2,
+        "DelayedAutostart":  1,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "cbdhsvc_b9ffa",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Ccx01000",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "CDD",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "cdfs",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "CDPSvc",
+        "Start":  2,
+        "DelayedAutostart":  1,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "CDPUserSvc",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "CDPUserSvc_b9ffa",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "cdrom",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "CertPropSvc",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "cht4iscsi",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "cht4vbd",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "CimFS",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "circlass",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "CldFlt",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "CLFS",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "ClickToRunSvc",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "ClipSVC",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "CloudBackupRestoreSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "CloudBackupRestoreSvc_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "CmBatt",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "CNG",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "cnghwassist",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "CodexSandboxService.OpenAI.Codex",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "com.docker.service",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "CompositeBus",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "COMSysApp",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "condrv",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "ConsentUxUserSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ConsentUxUserSvc_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "CoreMessagingRegistrar",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "cplspcon",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "CredentialEnrollmentManagerUserSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "CredentialEnrollmentManagerUserSvc_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "CryptSvc",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "dam",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "DcomLaunch",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "dcsvc",
+        "Start":  3,
+        "DelayedAutostart":  1,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "debugregsvc",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "defragsvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "DeveloperToolsService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "DeviceAssociationBrokerSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "DeviceAssociationBrokerSvc_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "DeviceAssociationService",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "DeviceInstall",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "DevicePickerUserSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "DevicePickerUserSvc_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "DevicesFlowUserSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "DevicesFlowUserSvc_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "devmap",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "DevQueryBroker",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Dfsc",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Dhcp",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "diagsvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "DiagTrack",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "disk",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "DispBrokerDesktopSvc",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "DisplayEnhancementService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "DisplayMux",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "DmEnrollmentSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "dmvsc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "dmwappushservice",
+        "Start":  3,
+        "DelayedAutostart":  1,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Dnscache",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "DoSvc",
+        "Start":  2,
+        "DelayedAutostart":  1,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "dot3svc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "DPS",
+        "Start":  3,
+        "DelayedAutostart":  0,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "drmkaud",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "DsmSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "DsSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "DusmSvc",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "DXGKrnl",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "EapHost",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ebdrv",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ebdrv0",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "edgeupdate",
+        "Start":  2,
+        "DelayedAutostart":  1,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "edgeupdatem",
+        "Start":  3,
+        "DelayedAutostart":  1,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "EFS",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "egoliteElevationService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "EgoUpdaterInternalService0.6.2.5",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "EgoUpdaterInternalService0.6.2.7",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "EgoUpdaterService0.6.2.5",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "EhStorClass",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "EhStorTcgDrv",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "embeddedmode",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "EntAppSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "EpicGamesUpdater",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ErrDev",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "EventLog",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "EventSystem",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "ExecutionContext",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "exfat",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "fastfat",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "fdc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "fdPHost",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "FDResPub",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "fhsvc",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "FileCrypt",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "FileInfo",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "FileSyncHelper",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Filetrace",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "flpydisk",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "FltMgr",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "FontCache",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "FrameServer",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "FrameServerMonitor",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "FsDepends",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "fse",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Fs_Rec",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Unknown"
+    },
+    {
+        "Name":  "fvevol",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "GameInputRedistService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "GameInputSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "gencounter",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "genericusbfn",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "GenPass",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "GoogleChromeElevationService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "GoogleUpdaterInternalService157.0.8089.0",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "GoogleUpdaterService157.0.8089.0",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "GPIOClx0101",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "gpsvc",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "GraphicsPerfSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "HdAudAddService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "HDAudBus",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "HidBatt",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "HidBth",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "HidEventFilter",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "hidi2c",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "hidinterrupt",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "HidIr",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "hidserv",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "hidspi",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "HidSpiCx",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "HidUsb",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "hns",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "hnswfpdriver",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "hpatchmon",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "HpSAMD",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Hsp",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "HTTP",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "hvcrash",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "HvHost",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "hvservice",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "hvsocketcontrol",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "HwNClx0101",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "hwpolicy",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "hyperkbd",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "HyperVideo",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "I3CHost",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "i8042prt",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "iagpio",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "iai2c",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "iaLPSS2i_GPIO2",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "iaLPSS2i_GPIO2_BXT_P",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "iaLPSS2i_GPIO2_CNL",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "iaLPSS2i_GPIO2_GLK",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "iaLPSS2i_I2C",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "iaLPSS2i_I2C_BXT_P",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "iaLPSS2i_I2C_CNL",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "iaLPSS2i_I2C_GLK",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "iaLPSS2_GPIO2_ADL",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "iaLPSS2_I2C_ADL",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "iaLPSSi_GPIO",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "iaLPSSi_I2C",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "iaStorAVC",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "iaStorV",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "iaStorVD",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "ibbus",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ibtusb",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "icssvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "IDMWFP",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "igccservice",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "igfxn",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "IKEEXT",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "IndirectKmd",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "InstallService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "IntcAudioBus",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "IntcAzAudAddService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "IntcBTAu",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "IntcDMic",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "IntcOED",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "IntcUSB",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Intel(R) Platform License Manager Service",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "IntelAudioService",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "IntelGNA",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "intelide",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "intelpep",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "intelpmax",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "IntelPMT",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "intelppm",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "InventorySvc",
+        "Start":  2,
+        "DelayedAutostart":  1,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "iorate",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "IpFilterDriver",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ipfsvc",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "ipf_acpi",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "ipf_cpu",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "ipf_lf",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "iphlpsvc",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "IPMIDRV",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "IPNAT",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "IPT",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "IpxlatCfgSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "isapnp",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "iScsiPrt",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "IsolationSession",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "IsoSessionCore",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ItSas35i",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "jhi_service",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "kbdclass",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "kbdhid",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "kdnic",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "kdnic_legacy",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "KeyIso",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "KSecDD",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "KSecPkg",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "KslD",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "ksthunk",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "KtmRm",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "l1vhlwf",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "l2bridge",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "LanmanServer",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "LanmanWorkstation",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "lfsvc",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "LicenseManager",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "lltdio",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "lltdsvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "lmhosts",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "LocalKdc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "logi_lamparray",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "logi_lamparray_service",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "LSI_SAS",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "LSI_SAS2i",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "LSI_SAS3i",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "LSM",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "luafv",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "LxpSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "lxss",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "MapsBroker",
+        "Start":  4,
+        "DelayedAutostart":  1,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "mausbhost",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "mausbip",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "MbbCx",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "McmSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "McpManagementService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "MDCoreSvc",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "megasas2i",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "megasas35i",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "megasr",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "MEIx64",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "MessagingService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "MessagingService_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "MicrosoftCopilotElevationService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "MicrosoftEdgeElevationService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Microsoft_Bluetooth_AvrcpTransport",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "midisrv",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "mlx4_bus",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "MMCSS",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Modem",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "monitor",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "mouclass",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "mouhid",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "mountmgr",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "mpi3drvi",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "mpsdrv",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "mpssvc",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "MRxDAV",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "mrxsmb",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "mrxsmb20",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "MsBridge",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "MSDTC",
+        "Start":  3,
+        "DelayedAutostart":  1,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Msfs",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "msgpiowin32",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "mshidkmdf",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "mshidumdf",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "msisadrv",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "MSiSCSI",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "msiserver",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "MSKSSRV",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "MsLldp",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "MSPCLOCK",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "MSPQM",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "MsQuic",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "MsQuicPrev",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "MsRPC",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "mssmbios",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "MSTEE",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "MTConfig",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Mup",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "mvumis",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "NahimicBTLink",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "NahimicService",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Nahimic_Mirroring",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "NativeWifiP",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "NaturalAuthentication",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "NcaSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "NcbService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "NcdAutoSetup",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ndfltr",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "NDIS",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "NdisCap",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "NdisImPlatform",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "NdisTapi",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Ndisuio",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "NdisVirtualBus",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "NdisWan",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ndiswanlegacy",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "NDKPerf",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "NDKPing",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ndproxy",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Ndu",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "NetAdapterCx",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "NetBIOS",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "NetBT",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Netlogon",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Netman",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "netprofm",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "NetSetupSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "NetTcpPortSharing",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "netvsc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "NetworkPrivacyPolicy",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Netwtw14",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "NgcCtnrSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "NgcSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "NlaSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "npcap",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "npcap_wifi",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Npfs",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "NPSMSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "NPSMSvc_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "npsvctrig",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "nsi",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "nsiproxy",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Ntfs",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Null",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "nvagent",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "nvdimm",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "NVDisplay.ContainerLocalSystem",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "NVHDA",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "nvlddmkm",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "nvmedisk",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "nvpcf",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "nvraid",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "nvstor",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "OneDrive Updater Service",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "OneSyncSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "OneSyncSvc_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "P9Rdr",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "P9RdrService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "P9RdrService_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Parport",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "partmgr",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "passthruparser",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "PcaSvc",
+        "Start":  4,
+        "DelayedAutostart":  1,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "pci",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "pciide",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "pcmcia",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "pcw",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "pdc",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "PEAUTH",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "PenService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "PenService_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "percsas2i",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "percsas3i",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "PerfHost",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "PhoneSvc",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "PimIndexMaintenanceSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "PimIndexMaintenanceSvc_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "PktMon",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "PktMonApi",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "pla",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "PlugPlay",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "PlutonHeci",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "PlutonHsp2",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "pmem",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "pneteth",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "PNPMEM",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "PolicyAgent",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "portcfg",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Power",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "PptpMiniport",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "PrintDeviceConfigurationService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "PrintNotify",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "PrintScanBrokerService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "PrintWorkflowUserSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "PrintWorkflowUserSvc_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "PRM",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Processor",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ProfSvc",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Psched",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "PushToInstall",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "pvhdparser",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "pvscsi",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "QWAVE",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "QWAVEdrv",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Ramdisk",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "RasAcd",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "RasAgileVpn",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "RasAuto",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Rasl2tp",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "RasMan",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "RasPppoe",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "RasSstp",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "rdbss",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "rdpbus",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "RDPDR",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "rdyboost",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "ReFS",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "refsdedupsvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ReFSv1",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "RemoteAccess",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "RemoteRegistry",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "RetailDemo",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "RFCOMM",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "rhproxy",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "RmSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "RoutePolicy",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "RpcEptMapper",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "RpcLocator",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "RpcSs",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "rspndr",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "RstMwService",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "rt640x64",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "RtkAudioUniversalService",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "s3cap",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SamSs",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "sbp2port",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SCardSvr",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ScDeviceEnum",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "scfilter",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Schedule",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "scmbus",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SCPolicySvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "sdbus",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SdcaHidInbox",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SdcaMfdInbox",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SDRSVC",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "sdstor",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "seclogon",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SecurityHealthService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "SEMgrSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SENS",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "SensorDataService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SensorService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SensrSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SerCx",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SerCx2",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Serenum",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Serial",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "sermouse",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SessionEnv",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "sfloppy",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SharedAccess",
+        "Start":  2,
+        "DelayedAutostart":  1,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "ShellHWDetection",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "shpamsvc",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SiSRaid2",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SiSRaid4",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SmartSAMD",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "smphost",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SmsRouter",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SNMPTrap",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "spaceparser",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "spaceport",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "SpbCx",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Spooler",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "sppsvc",
+        "Start":  2,
+        "DelayedAutostart":  1,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "srv2",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "srvnet",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "SSDPSRV",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "ssh-agent",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "sshd",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "SshdBroker",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "SstpSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "StateRepository",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "stexstor",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "StiSvc",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "storahci",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "storflt",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "stornvme",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "storqosflt",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "StorSvc",
+        "Start":  2,
+        "DelayedAutostart":  1,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "storufs",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "storvsc",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "storvsp",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "svsvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "swenum",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "swprv",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SysMain",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "SystemEventsBroker",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "TapiSrv",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Tcpip",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Tcpip6",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "tcpipreg",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "tdx",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "terminpt",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "TermService",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "TextInputManagementService",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Themes",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ThermalFilter",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "TieringEngineService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "TimeBrokerSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "TokenBroker",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "TPM",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "TrkWks",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "TroubleshootingSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "TrustedInstaller",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "TsUsbFlt",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "TsUsbGD",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "tunnel",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "tzautoupdate",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "UASPStor",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "UcmCx0101",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "UcmTcpciCx0101",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "UcmUcsiAcpiClient",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "UcmUcsiCx0101",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "UCPD",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Ucx01000",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "UdeCx",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "udfs",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "UdkUserSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "UdkUserSvc_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "UEFI",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Ufx01000",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "UfxChipidea",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "ufxsynopsys",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "uiomap",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "umbus",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "UmPass",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "UmRdpService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "UnionFS",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "UnistoreSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "UnistoreSvc_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "upnphost",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "UrsChipidea",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "UrsCx01000",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "UrsSynopsys",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "usb-platformdetection",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Usb4DeviceRouter",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Usb4HostRouter",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "usbaudio",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "usbaudio2",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "usbccgp",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "usbcir",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "usbehci",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "usbhub",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "USBHUB3",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "usbohci",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "USBPcap",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "usbprint",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "usbser",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "USBSTOR",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "usbuhci",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "usbvideo",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "USBXHCI",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "UserDataSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "UserDataSvc_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "UserManager",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "UsoSvc",
+        "Start":  2,
+        "DelayedAutostart":  1,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "VaultSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "vdrvroot",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "vds",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "VerifierExt",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "VfpExt",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "vhdmp",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "vhdparser",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "vhf",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Vid",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "VirtualRender",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "vmbus",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "VMBusHID",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "vmbusproxy",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "vmbusr",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "vmcompute",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "vmgid",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "vmicguestinterface",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "vmicheartbeat",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "vmickvpexchange",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "vmicrdv",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "vmicshutdown",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "vmictimesync",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "vmicvmsession",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "vmicvss",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "vmsmp",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "VMSNPXY",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "VMSP",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "VmsProxy",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "VMSVSF",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "VMSVSP",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "volmgr",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "volmgrx",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "volsnap",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "volume",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "vpci",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "vpcivsp",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "VSInstallerElevationService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "vsmraid",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "VSS",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "VSStandardCollectorService150",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "VSTXRAID",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "vwifibus",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "vwififlt",
+        "Start":  1,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "vwifimp",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "W32Time",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WaaSMedicSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WacomPen",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WalletService",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "wanarp",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "wanarpv6",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WarpJITSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "wbengine",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WbioSrvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "wcifs",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Wcmsvc",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "wcncsvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WdAiNisDrv",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WdBoot",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Wdf01000",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WdFilter",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WdiServiceHost",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WdiSystemHost",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "wdiwifi",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WdmCompanionFilter",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WdNisDrv",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WdNisSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WebClient",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WebManagement",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WebManagementUser",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WebManagementUser_b9ffa",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "webthreatdefsvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "webthreatdefusersvc",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "webthreatdefusersvc_b9ffa",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "Wecsvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WEPHOSTSVC",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "wercplsupport",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WerSvc",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WFDSConMgrSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WFPLWFS",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "whesvc",
+        "Start":  2,
+        "DelayedAutostart":  1,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WiaRpc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Wificx",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WIMMount",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WinAccelCx0101",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WinDefend",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WindowsTrustedRT",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WindowsTrustedRTProxy",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WinHttpAutoProxySvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "wini3ctarget",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WinMad",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Winmgmt",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WinNat",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WinRM",
+        "Start":  3,
+        "DelayedAutostart":  1,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WinSetupMon",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WINUSB",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WinVerbs",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "wisvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WlanSvc",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "wlidsvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "wlpasvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WManSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WmiAcpi",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "wmiApSrv",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WMIRegistrationService",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WMPNetworkSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "Wof",
+        "Start":  0,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "workfolderssvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WpcMonSvc",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WPDBusEnum",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WpdUpFltr",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WpnService",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WpnUserService",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WpnUserService_b9ffa",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "ws2ifsl",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WSAIFabricSvc",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "wscsvc",
+        "Start":  2,
+        "DelayedAutostart":  1,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WSearch",
+        "Start":  4,
+        "DelayedAutostart":  1,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WSLService",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "wtd",
+        "Start":  2,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "wuauserv",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WudfPf",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "WUDFRd",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WUDFWpdFs",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WUDFWpdMtp",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "wuqisvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Running"
+    },
+    {
+        "Name":  "WwanSvc",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "XblAuthManager",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "XblGameSave",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "xboxgip",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "XboxGipSvc",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "XboxNetApiSvc",
+        "Start":  4,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    },
+    {
+        "Name":  "xinputhid",
+        "Start":  3,
+        "DelayedAutostart":  null,
+        "Status":  "Stopped"
+    }
+]

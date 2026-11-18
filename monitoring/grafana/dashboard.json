@@ -1,0 +1,57 @@
+{
+  "dashboard": {
+    "title": "AI Billing Hub Monitoring",
+    "panels": [
+      {
+        "title": "API Request Rate",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(http_requests_total{job=\"ai-billing-hub\"}[5m])",
+            "legendFormat": "{{ handler }}"
+          }
+        ]
+      },
+      {
+        "title": "Error Rate",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(http_requests_total{job=\"ai-billing-hub\",status=~\"5..\"}[5m])",
+            "legendFormat": "Errors"
+          }
+        ]
+      },
+      {
+        "title": "Token Usage",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "increase(billing_tokens_total[1h])",
+            "legendFormat": "Tokens"
+          }
+        ]
+      },
+      {
+        "title": "Cost Tracking",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "billing_cost_usd",
+            "legendFormat": "Cost ($)"
+          }
+        ]
+      },
+      {
+        "title": "Provider Usage",
+        "type": "piechart",
+        "targets": [
+          {
+            "expr": "sum by (provider) (billing_tokens_total)",
+            "legendFormat": "{{ provider }}"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+﻿[17:20:54] DRY RUN - backup tidak ditulis, tidak ada perubahan.
+[17:20:54] PLAN  BITS                                         Manual   Windows Update/Store akan menyalakannya saat perlu
+[17:20:54] PLAN  DoSvc                                        Manual   Delivery Optimization (P2P update)
+[17:20:54] PLAN  WSAIFabricSvc                                Manual   Windows AI Components (on-demand)
+[17:20:54] PLAN  InventorySvc                                 Manual   Inventory & Compatibility Appraisal
+[17:20:54] PLAN  wuqisvc                                      Manual   Usage & Quality Insights
+[17:20:54] PLAN  CloudBackupRestoreSvc_b9ffa                  Manual   Windows Backup (cloud)
+[17:20:54] PLAN  PimIndexMaintenanceSvc_b9ffa                 Manual   Index kontak (People)
+[17:20:54] PLAN  edgeupdate                                   Manual   Microsoft Edge updater
+[17:20:54] PLAN  ClickToRunSvc                                Manual   Office Click-to-Run updater
+[17:20:54] PLAN  GoogleUpdaterService157.0.8089.0             Manual   Google updater
+[17:20:54] PLAN  GoogleUpdaterInternalService157.0.8089.0     Manual   Google updater (internal)
+[17:20:54] PLAN  EgoUpdaterService0.6.2.5                     Manual   ego browser updater
+[17:20:54] PLAN  EgoUpdaterInternalService0.6.2.5             Manual   ego updater (internal)
+[17:20:54] PLAN  EgoUpdaterInternalService0.6.2.7             Manual   ego updater (internal) lama
+[17:20:54] PLAN  logi_lamparray_service                       Manual   Logitech RGB lamp array
+[17:20:54] PLAN  Intel(R) Platform License Manager Service    Manual   Intel platform licensing
+[17:20:54] PLAN  NPSMSvc_b9ffa                                Manual   Now Playing Session Manager
+[17:20:54] PLAN  DevicesFlowUserSvc_b9ffa                     Manual   Devices Flow (Add device UI)
+[17:20:54] PLAN  WebClient                                    Disabled WebDAV client (jarang dipakai)
+[17:20:54] PLAN  SharedAccess                                 Disabled Internet Connection Sharing (bukan hotspot)
+[17:20:54] Dry run selesai. Tidak ada yang diubah.

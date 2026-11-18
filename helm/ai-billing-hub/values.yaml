@@ -1,0 +1,62 @@
+# Default values for AI Billing Hub
+replicaCount: 2
+
+image:
+  repository: ai-billing-hub
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: LoadBalancer
+  port: 80
+
+resources:
+  requests:
+    memory: "256Mi"
+    cpu: "250m"
+  limits:
+    memory: "512Mi"
+    cpu: "500m"
+
+autoscaling:
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 5
+  targetCPUUtilizationPercentage: 70
+  targetMemoryUtilizationPercentage: 80
+
+# API Keys (Configure via secrets in production)
+# JANGAN isi key asli di file ini. Gunakan file values lokal / --set / external secret.
+secrets:
+  groqApiKey: ""
+  openrouterApiKey: ""
+  geminiApiKey: ""
+  awsAccessKeyId: ""
+  awsSecretAccessKey: ""
+
+# Configuration
+config:
+  groqModel: "qwen/qwen-2.5-coder-32b-instruct"
+  bedrockModelId: "qwen.qwen3-next-80b-a3b"
+  gcpProjectId: "your-gcp-project-id"
+  awsRegion: "us-east-1"
+  timezone: "Asia/Jakarta"
+  debug: "false"
+
+# Ingress configuration
+ingress:
+  enabled: false
+  className: "nginx"
+  annotations: {}
+  hosts:
+    - host: ai-billing-hub.local
+      paths:
+        - path: /
+          pathType: Prefix
+  tls: []
+
+# Monitoring
+monitoring:
+  enabled: true
+  serviceMonitor:
+    enabled: false

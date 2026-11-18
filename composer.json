@@ -1,0 +1,18 @@
+{
+  "name": "aryaf/ai-billing-hub",
+  "description": "AI Billing & Cloud Hub (multi-provider) - PHP dashboard, API, dan cost tracking opsional",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "suggest": {
+    "aws/aws-sdk-php": "Diperlukan untuk cost tracking DynamoDB (opsional)"
+  },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}

@@ -1,0 +1,6 @@
+account_id,service_code,usage_date,region,usage_quantity,cost_usd,note
+111122223333,EC2,2026-10-01,us-east-1,720,33.4080,Contoh: 1 instance t3.large
+111122223333,S3,2026-10-02,us-east-1,150,3.4500,Contoh: storage 150 GB
+111122223333,Bedrock,2026-10-03,us-east-1,250000,0.1125,Contoh: 250k token Qwen
+444455556666,Lambda,2026-10-04,ap-southeast-1,1200000,0.2400,Contoh: 1.2 juta request
+777788889999,DynamoDB,2026-10-05,us-west-2,50000,0.0325,Contoh: WCU-hour

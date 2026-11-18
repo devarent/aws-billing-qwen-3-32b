@@ -1,0 +1,77 @@
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  name: ai-billing-hub-alerts
+  namespace: default
+  labels:
+    app: ai-billing-hub
+spec:
+  groups:
+  - name: api-usage-alerts
+    rules:
+    - alert: HighAPIRequestRate
+      expr: rate(http_requests_total{job="ai-billing-hub"}[5m]) > 100
+      for: 5m
+      labels:
+        severity: warning
+      annotations:
+        summary: "High API request rate detected"
+        description: "API request rate is {{ $value }} req/s for {{ $labels.instance }}"
+
+    - alert: HighErrorRate
+      expr: rate(http_requests_total{job="ai-billing-hub",status=~"5.."}[5m]) > 0.05
+      for: 5m
+      labels:
+        severity: critical
+      annotations:
+        summary: "High error rate detected"
+        description: "Error rate is {{ $value | humanizePercentage }} for {{ $labels.instance }}"
+
+    - alert: HighLatency
+      expr: histogram_quantile(0.95, rate(http_request_duration_seconds_bucket{job="ai-billing-hub"}[5m])) > 1
+      for: 5m
+      labels:
+        severity: warning
+      annotations:
+        summary: "High latency detected"
+        description: "95th percentile latency is {{ $value }}s for {{ $labels.instance }}"
+
+  - name: resource-usage-alerts
+    rules:
+    - alert: HighMemoryUsage
+      expr: container_memory_usage_bytes{container="web"} / container_spec_memory_limit_bytes{container="web"} > 0.9
+      for: 5m
+      labels:
+        severity: warning
+      annotations:
+        summary: "High memory usage"
+        description: "Memory usage is {{ $value | humanizePercentage }} for {{ $labels.pod }}"
+
+    - alert: HighCPUUsage
+      expr: rate(container_cpu_usage_seconds_total{container="web"}[5m]) > 0.8
+      for: 5m
+      labels:
+        severity: warning
+      annotations:
+        summary: "High CPU usage"
+        description: "CPU usage is {{ $value | humanizePercentage }} for {{ $labels.pod }}"
+
+  - name: billing-alerts
+    rules:
+    - alert: TokenUsageThreshold
+      expr: increase(billing_tokens_total[1h]) > 1000000
+      for: 1h
+      labels:
+        severity: warning
+      annotations:
+        summary: "High token usage detected"
+        description: "Used {{ $value }} tokens in the last hour"
+
+    - alert: CostThresholdWarning
+      expr: billing_cost_usd > 50
+      for: 1h
+      labels:
+        severity: warning
+      annotations:
+        summary: "Cost threshold warning"
+        description: "Current cost is ${{ $value }}"

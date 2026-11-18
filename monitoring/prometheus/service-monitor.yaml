@@ -1,0 +1,15 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: ai-billing-hub
+  namespace: default
+  labels:
+    app: ai-billing-hub
+spec:
+  selector:
+    matchLabels:
+      app: ai-billing-hub
+  endpoints:
+  - port: http
+    interval: 30s
+    path: /metrics
