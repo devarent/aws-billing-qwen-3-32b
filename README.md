@@ -639,5 +639,5 @@ Project ini dibuat untuk edukasi dan manajemen billing cloud.
 </details>
 
 <div align="center">
-<sub>Part of <a href="https://github.com/aryafatthurahman4-collab">@aryafatthurahman4-collab</a> - hands-on engineering, built and documented in the open.</sub>
+<sub>Hands-on engineering, built and documented in the open.</sub>
 </div>
