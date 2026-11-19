@@ -1,3 +1,26 @@
+
+<!-- dbx-style-kit -->
+<div align="center">
+
+<img src="https://img.shields.io/badge/aws-billing-qwen-3-32b-1f6feb?style=for-the-badge" alt="aws-billing-qwen-3-32b" />
+<img src="https://img.shields.io/badge/LANG%20PHP-3178c6?style=for-the-badge" alt="LANG PHP" />
+<img src="https://img.shields.io/badge/STARS%200-eab308?style=for-the-badge" alt="STARS 0" />
+<img src="https://img.shields.io/badge/LICENSE%20MIT-22c55e?style=for-the-badge" alt="LICENSE MIT" />
+
+<br>
+
+<img src="https://img.shields.io/badge/OPEN%20SOURCE-yes-22c55e?style=for-the-badge&logo=github&logoColor=white" alt="OPEN SOURCE" />
+<img src="https://img.shields.io/badge/BUILT%20IN%20PUBLIC-true-6366f1?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="BUILT IN PUBLIC" />
+<img src="https://img.shields.io/badge/HANDS%20ON%20LABS-52-0ea5e9?style=for-the-badge&logo=docker&logoColor=white" alt="HANDS ON LABS" />
+<img src="https://img.shields.io/badge/DOCUMENTED-yes-14b8a6?style=for-the-badge&logo=markdown&logoColor=white" alt="DOCUMENTED" />
+
+<br>
+
+<b>Workflow analisis billing AWS menggunakan model Qwen3-32B.</b>
+
+</div>
+
+---
 # AI Billing & Cloud Hub (Multi-Provider)
 
 Aplikasi kalkulator biaya token, simulator runway saldo, pengaman billing otomatis (AWS Budgets & GCP), serta antarmuka chat langsung dengan model **Qwen 32B/72B/235B dan Qwen3-Next 80B A3B** via Groq, OpenRouter, Amazon Bedrock, dan Google Cloud Gemini.
