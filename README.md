@@ -1,3 +1,13 @@
+# Aws-Billing-Qwen-3-32b
+<sub><span style="opacity: 0.85">Workflow analisis billing AWS menggunakan model Qwen3-32B.</span></sub>
+<div align="center" style="font-size: 0.9em">
+<img src="assets/brand-logo.svg" alt="Arya Fatthurahman" width="130px" />
+</div>
+
+[![CI](https://github.com/devarent/aws-billing-qwen-3-32b/actions/workflows/ci.yml/badge.svg)](https://github.com/devarent/aws-billing-qwen-3-32b/actions/workflows/ci.yml)
+
+---
+
 
 <!-- identity-block -->
 <div align="center">
@@ -698,3 +708,9 @@ Project ini dibuat untuk edukasi dan manajemen billing cloud.
 <div align="center">
 <sub>Hands-on engineering, built and documented in the open.</sub>
 </div>
+## Quickstart
+
+```bash
+cd <repo>
+# Setup instructions are in the project sections above.
+```
